@@ -64,9 +64,12 @@ font-family: 'Yeseva One', cursive; */
 .mission_div h1{
     text-align: center;
     font-size: 48px;
+    font-weight: bold;
+    color: #13103A;
 }
 .mission_div h1 span{
     color: #FFAD5A;
+
 }
 .mission_blocks{
     display: flex;
@@ -93,10 +96,54 @@ font-family: 'Yeseva One', cursive; */
     width: 35%;
 }
 .mission_blocks h3{
-    padding-left: 20px ;
+    padding: 0 0 20px 20px ;
     font-weight:bold;
     font-size: 24px;
 }
 .mission_blocks p{
     padding-left: 20px ;
+    color: #424242;
+}
+.documentation_parts{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 0px;
+    
+}
+.doc_image{
+    width: 20%;
+}
+.doc_image img{
+    width: 100%;
+}
+.doc_texts{
+    width: 40%;
+}
+.doc_texts h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: #333333;
+    padding: 30px 0px;
+}
+.doc_texts p{
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+.newsletter_section_{
+    width: 40%;
+    margin: auto;
+}
+.newsletter{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+.newsletter h3{
+    font-size: 26px;
+}
+.newsletter input{
+    font-size: 26px;
+    padding: 0px 25px;
+    border: 2px solid #FF5959;
+    border-radius: 50px;
 }
